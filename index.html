@@ -1,0 +1,44 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Document</title>
+    <link rel="stylesheet" href="style.css">
+
+</head>
+<body>
+    <section>
+        <form>
+            <div>
+            <input id="search" type="text" name="film" placeholder="Titre du film">
+            <button type="button" value="Envoyer" onclick="getValue();">Envoyer</button>
+            </div>
+        </form>
+        <div id="corps" class="hide">
+            <h1 id="titre"></h1>
+            <div id="container">
+                
+                    <img id="affiche" src="" alt="" >
+                
+                <div class="infos">
+                    <h2> Réalisateur</h2>
+                    <p id="realisateur"></p>
+                    <br>
+                    <h2>Année de sortie</h2>
+                    <p id="année"></p>
+                    <br>
+                    <h2>Distribution</h2>
+                    <p id="acteurs"></p>
+                    <br>
+                    <h2>Synopsis</h2>
+                    <p id="description"></p>
+                </div>
+            </div>
+        </div>
+    </section>
+    
+    <script src="script.js" defer></script>
+</body>
+</html>

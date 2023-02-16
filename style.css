@@ -1,0 +1,135 @@
+body {
+    background: linear-gradient(90deg, lightgrey, lightsalmon);
+    font-family: 'Open Sans', sans-serif;
+    color: darkslategrey;
+    margin-left: 20%;
+    margin-right: 20%;
+}
+
+h1 {
+    display: flex;
+    justify-content: center;
+    align-content: center;
+    font-weight: bolder;
+    color: darkslategrey;
+    font-style: italic;
+    font-size: xx-large;
+    margin: 50px;
+    /* border: solid 2px ;
+    padding: 30px;
+    margin-left: 30%;
+    margin-right: 30%; */
+}
+
+h2 {
+    display: flex;
+    justify-content: center;
+    align-content: center;
+    font-weight: larger;
+    color: darkslategrey;
+    font-style: italic;
+ 
+}
+
+p {
+    display: flex;
+    justify-content: center;
+    align-content: center;
+    font-weight: medium;
+    color: black;
+    font-size: medium;
+
+}
+
+#container {
+    /* position : absolute; */
+    display: flex;
+    flex-direction: row;
+    justify-content: space-around;
+    align-content: center;
+    margin-top : 20px;
+    gap: 3em;
+}
+
+button {
+    font-family: 'Open Sans', sans-serif;
+    letter-spacing: 2px;
+    font-weight: 200;
+    top: 50%;
+    left: 50%;
+    border: none;
+    padding: 10px 20px;
+    margin: 0;
+    box-shadow: none;
+    color: white;
+    background: #ee0979;  /* fallback for old browsers */
+    background: linear-gradient(to right, #ff6a00, #ee0979); 
+    text-align: center;
+    text-decoration: none;
+    cursor: pointer;
+    font-size: large;
+    background-size: 400% 400%;
+    animation: ButtonBg 10s ease infinite;
+  }
+  
+  .btn:hover {
+    box-shadow: 0 12px 16px 0 rgba(0, 0, 0, 0.24), 0 17px 50px 0 rgba(0, 0, 0, 0.19);
+  }
+  
+  .btn:active {
+    display: none;
+  }
+  
+  @keyframes ButtonBg {
+    0% {
+      background-position: 0% 50%
+    }
+    50% {
+      background-position: 100% 50%
+    }
+    100% {
+      background-position: 0% 50%
+    }
+  }
+
+#search {
+    font-family: 'Open Sans', sans-serif;
+    letter-spacing: 2px;
+    font-weight: 200;
+    top: 50%;
+    left: 50%;
+    border: none;
+    padding: 10px 20px;
+    margin: 0;
+    box-shadow: none;
+    color: black;
+    background: white;
+    text-align: center;
+    text-decoration: none;
+    cursor: pointer;
+    font-size: large;
+    background-size: 400% 400%;
+    animation: ButtonBg 10s ease infinite;
+  }
+
+#corps {
+    /* visibility:hidden; */
+}
+
+.hide{
+    visibility:hidden;
+}
+
+.show{
+    visibility: visible;
+}
+
+/* .poster {
+    position: relative;
+    margin : 20px;
+}
+
+.infos {
+    position: relative;
+    margin : 20px;
+} */
